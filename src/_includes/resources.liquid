@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{% if page.lang == 'en' %}
+  {% assign source = en_content %}
+{% elsif page.lang == 'ja' %}
+  {% assign source = ja_content %}
+{% endif %}
+
+<div class="container">
+<section>
+  <h1>Resources</h1>
+  <p>Here are some resources to help you get started!</p>
+</section>
+
+<section>
+  <h2>OpenStreetMap and Humanitarian Mapping (HOTOSM)</h2>
+
+  <div class="row mt-4">
+    <div class="col-4 text-end">
+      {{ source.resources.resource1 }}
+    </div>
+    <div class="col">
+      {{ source.resources.resourceDescription1 }}
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-4 text-end">
+      {{ source.resources.resource2 }}
+    </div>
+    <div class="col">
+      {{ source.resources.resourceDescription2 }}
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-4 text-end">
+      <a href="https://docs.google.com/presentation/d/1hvdrJn3919JjNVKlmvOsJMK6EThPb4YNItOdfV69stk/edit?usp=sharing">Humanitarian Mapathon Tutorial (Slides)</a>
+    </div>
+    <div class="col">
+      Use these tutorial slides to learn how to contribute to HOTOSM!
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-4 text-end">
+      {{ source.resources.resource4 }}
+    </div>
+    <div class="col">
+      {{ source.resources.resourceDescription4 }}
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-4 text-end">
+      {{ source.resources.resource5 }}
+    </div>
+    <div class="col">
+      {{ source.resources.resourceDescription5 }}
+    </div>
+  </div>
+  </section>
+  
+  <section>
+    <h2>Creating Your Own Maps!</h2>
+    <div class="row mt-4">
+      <div class="col-4 text-end">
+        <a href="https://kepler.gl/">Kepler.gl</a>
+      </div>
+      <div class="col">
+        An open source tool for large-scale geospatial data sets.
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4 text-end">
+        <a href="https://felt.com/">Felt</a>
+      </div>
+      <div class="col">
+        A web platform for creating and sharing interactive maps.
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4 text-end">
+        <a href="https://www.google.com/earth/outreach/learn/create-a-map-or-story-in-google-earth-web/">Google Earth</a>
+      </div>
+      <div class="col">
+        Create a map or story in Google Earth Web.
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4 text-end">
+        <a href="https://www.mapbox.com/">Mapbox</a>
+      </div>
+      <div class="col">
+        A web platform for creating custom styled maps.
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4 text-end">
+        <a href="https://www.qgis.org/en/site/">QGIS</a>
+      </div>
+      <div class="col">
+        An open-source desktop app for creating maps.
+      </div>
+    </div>
+
+  </section>
+
+
+  </div>
+

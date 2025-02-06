@@ -1,0 +1,29 @@
+---
+siteTitle: International Humanitarian Mapathon
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  {% include 'components/head' %}
+
+  <body>
+    {% include 'components/nav' %}
+
+    {% comment %} <div class="hexagon-large-group">
+      <div id="hex-1" class="hexagon-large hexagon--light-orange hex-1">&#x2B22;</div>
+      <div id="hex-2" class="hexagon-large hexagon--orange hex-2">&#x2B22;</div>
+      <div id="hex-3" class="hexagon-large hexagon--light-gray hex-3">&#x2B22;</div>
+    </div> {% endcomment %}
+    
+    {% comment %} <div id="hex-group-1">
+      <div id="hex-4" class="hexagon-small hexagon--orange hex-group-1a">&#x2B22;</div>
+      <div id="hex-5" class="hexagon-small hexagon--orange hex-group-1b">&#x2B22;</div>
+    </div> {% endcomment %}
+
+    {{ content }}
+
+    {% include 'components/footer' %}
+    {% include 'components/footer-scripts' %}
+  </body>
+
+</html>
