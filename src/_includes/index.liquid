@@ -24,7 +24,7 @@ layout: default
 <section id="header">
   <div class="header--title">
     <div>
-      <span class="header--yellow-bg">2025</span>
+      <span class="header--primary-bg"><strong>2025</strong></span>
       </div>
     <div>
       <span class="header--title__text">International</span><br>
@@ -33,17 +33,17 @@ layout: default
     </div>
   </div>
   <div class="header--date">
-    April 29, 2025 (US, Mexico)
+    <strong>April 29, 2025</strong> (US, Mexico)
   </div>
   <br>
   <div class="header--date">
-    April 30, 2025 (Japan, Philippines)
+    <strong>April 30, 2025</strong> (Japan, Philippines, Uganda)
   </div>
 </section>
 
 <section id="description">
   <p>
-    Save the date! The 2025 International Humanitarian Mapathon will be held on April 29, 2025 (US, Mexico) / April 30, 2025 (Japan). 
+    Save the date! The 2025 International Humanitarian Mapathon will be held on April 29, 2025 (US, Mexico) / April 30, 2025 (Japan, Philippines, Uganda). 
   </p>
   <p>
     Join fellow mappers from around the world to map the world! Learn about OpenStreetMap and Humanitarian Mapping. Join the Crisis Mapping Challenge. Share with other mappers from around the world. Beginners are welcome!
@@ -69,7 +69,7 @@ layout: default
       <p>Learn about OpenStreetMap and how to map for humanitarian causes. Start by <a href="https://padlet.com/UCLA_Library/international-humanitarian-mapathon-2024-v9xzbflkecfhwugp" target="_blank">introducing yourself on Padlet</a>!</p>
     </div>
     <div>
-      <a href="{{ '/schedule-day-1/' | htmlBaseUrl: page.lang  }}" class="btn btn-yellow btn-details" id="btn-day-1">More details</a>
+      <a href="{{ '/schedule-day-1/' | htmlBaseUrl: page.lang  }}" class="btn btn-primary btn-details" id="btn-day-1">More details</a>
     </div>
   </div>
   <div class="day">
@@ -79,7 +79,7 @@ layout: default
       <p>Join the UN Crisis Map Challenge and create a map that tells a story.</p>
     </div>
     <div>
-      <a href="{{ '/schedule-day-2/' | htmlBaseUrl: page.lang  }}" class="btn btn-yellow btn-details" id="btn-day-2">More details</a>
+      <a href="{{ '/schedule-day-2/' | htmlBaseUrl: page.lang  }}" class="btn btn-primary btn-details" id="btn-day-2">More details</a>
     </div>    
   </div>
   <div class="day">
@@ -89,28 +89,31 @@ layout: default
       <p>Join fellow mappers from around the world to share your work and learn from others.</p>
     </div>
     <div>
-      <a href="{{ '/schedule-day-3/' | htmlBaseUrl: page.lang  }}" class="btn btn-yellow btn-details" id="btn-day-3">More details</a>
+      <a href="{{ '/schedule-day-3/' | htmlBaseUrl: page.lang  }}" class="btn btn-primary btn-details" id="btn-day-3">More details</a>
     </div>
   </div>
 </section>
+
+{% endcomment %}
 
 <section id="partners-and-supporters">
   <div id="thank-you">
     Thank you to our wonderful partners and supporters!
   </div>
   <div id="logo-section">
-    <img src="/images/aoyama-logo_en.png" alt="Aoyama Gakuin University" class="logo"">
-    <img src="/images/cgia.jpg" alt="CGIA" class="logo"">
-    <img src="/images/DURP.png" alt="DURP" class="logo">
+    {% comment %} <img src="/images/aoyama-logo_en.png" alt="Aoyama Gakuin University" class="logo""> {% endcomment %}
+    {% comment %} <img src="/images/cgia.jpg" alt="CGIA" class="logo""> {% endcomment %}
+    {% comment %} <img src="/images/DURP.png" alt="DURP" class="logo"> {% endcomment %}
+    <img src="/images/hitotsubashi_logo.png" alt="Hitotsubashi" class="logo"">
     <img src="/images/maptimelalogo.png" alt="Maptime LA" class="logo"">
     <img src="/images/Metro_logo_preferred_black.png" alt="Metro" class="logo">
     <img src="/images/reitaku-logo.png" alt="Reitaku University" class="logo">
-    <img src="/images/un-smart-maps-group.png" alt="UN Smart Maps" class="logo">
+    {% comment %} <img src="/images/un-smart-maps-group.png" alt="UN Smart Maps" class="logo"> {% endcomment %}
     <img src="/images/ucla.png" alt="UCLA" class="logo">
-    <img src="/images/UofH-Manoa.png" alt="University of Hawaii at Manoa" class="logo">
+    {% comment %} <img src="/images/UofH-Manoa.png" alt="University of Hawaii at Manoa" class="logo"> {% endcomment %}
     <img src="/images/upri_ym.png" alt="UP Resilience Institute Youth Mappers" class="logo">
     <img src="/images/usc.png" alt="USC" class="logo">
   </div>
-</section> {% endcomment %}
+</section> 
 
 </div>
